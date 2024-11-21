@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-nestjs-cerbos-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+    "frontend:dev": "cd frontend && pnpm run dev",
+    "frontend:build": "cd frontend && pnpm run build",
+    "frontend:start": "cd frontend && pnpm run start",
+    "frontend:lint": "cd frontend && pnpm run lint",
+    "api:build": "cd api && pnpm run build",
+    "api:dev": "cd api && pnpm run start:dev",
+    "api:debug": "cd api && pnpm run start:debug",
+    "api:start": "cd api && pnpm run start:prod",
+    "api:lint": "cd api && pnpm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
