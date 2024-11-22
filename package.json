@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     
-    "frontend:dev": "cd frontend && pnpm run dev",
-    "frontend:build": "cd frontend && pnpm run build",
-    "frontend:start": "cd frontend && pnpm run start",
-    "frontend:lint": "cd frontend && pnpm run lint",
+    "client:dev": "cd client && pnpm run dev",
+    "client:build": "cd client && pnpm run build",
+    "client:start": "cd client && pnpm run start",
+    "client:lint": "cd client && pnpm run lint",
     "api:build": "cd api && pnpm run build",
     "api:dev": "cd api && pnpm run start:dev",
     "api:debug": "cd api && pnpm run start:debug",
