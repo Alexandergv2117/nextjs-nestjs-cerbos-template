@@ -23,6 +23,9 @@
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/swagger": "8.0.7",
+    "@prisma/client": "5.22.0",
+    "moment-timezone": "0.5.46",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
