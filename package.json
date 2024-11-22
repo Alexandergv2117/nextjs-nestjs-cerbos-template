@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    
+    "admin:dev": "cd admin && pnpm run dev",
+    "admin:build": "cd admin && pnpm run build",
+    "admin:start": "cd admin && pnpm run start",
+    "admin:lint": "cd admin && pnpm run lint",
     "client:dev": "cd client && pnpm run dev",
     "client:build": "cd client && pnpm run build",
     "client:start": "cd client && pnpm run start",
