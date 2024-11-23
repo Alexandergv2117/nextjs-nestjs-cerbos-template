@@ -14,6 +14,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        "geist-sans": ["var(--font-geist-sans)", "sans-serif"],
+        "geist-mono": ["var(--font-geist-mono)", "monospace"],
+      },
     },
   },
   plugins: [nextui()],
